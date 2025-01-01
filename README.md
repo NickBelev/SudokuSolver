@@ -22,8 +22,8 @@ A terminal-based Sudoku solving program that visualizes the solving process step
 
 1. Clone the repository and navigate to the project directory:
    ```bash
-   git clone <repository-url>
-   cd sudoku-solver
+   git clone https://github.com/NickBelev/SudokuSolver
+   cd SudokuSolver
    ```
 
 2. Ensure you have a file named `sudoku.txt` in the project directory, formatted as follows:
@@ -53,7 +53,7 @@ A terminal-based Sudoku solving program that visualizes the solving process step
 
 3. Run the program:
    ```bash
-   python sudoku_solver.py
+   python solver.py
    ```
 
 4. Enter the grid number you wish to solve (e.g., `1` for `Grid 01`).
@@ -105,7 +105,4 @@ _  4  9  2  _  6  _  _  7
 
 ```
 The program updates the terminal with color-coded progress until the board is solved or deemed unsolvable.
-
-## License
-This project is licensed under the MIT License.
 
